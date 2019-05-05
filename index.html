@@ -1,0 +1,393 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dados do Ensino Superior no Brasil</title>
+    <meta name="description" content="Dados do Ensino Superior no Brasil">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+
+    <!-- Left Panel -->
+
+    <aside id="left-panel" class="left-panel">
+        <nav class="navbar navbar-expand-sm navbar-default">
+
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu"
+                    aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Logo"></a>
+                <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
+            </div>
+
+            <div id="main-menu" class="main-menu collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+                    </li>
+                    <li class="active">
+                        <a href="ajuda.html"> <i class="menu-icon fa fa-question"></i>Ajuda </a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </aside><!-- /#left-panel -->
+
+    <!-- Left Panel -->
+
+    <!-- Right Panel -->
+
+    <div id="right-panel" class="right-panel">
+
+        <!-- Header-->
+        <header id="header" class="header">
+
+            <div class="header-menu">
+
+                <div class="col-sm-7">
+                    <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
+                </div>
+
+                <div class="col-sm-5">
+                    <div class="language-select dropdown" id="language-select" >
+                        <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="language" aria-haspopup="true"
+                            aria-expanded="true">
+                            <i class="flag-icon flag-icon-br"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="language">
+                            <div class="dropdown-item">
+                                <span class="flag-icon flag-icon-fr"></span>
+                            </div>
+                            <div class="dropdown-item">
+                                <span class="flag-icon flag-icon-br"></span>
+                            </div>
+                            <div class="dropdown-item">
+                                <i class="flag-icon flag-icon-es"></i>
+                            </div>
+                            <div class="dropdown-item">
+                                <i class="flag-icon flag-icon-us"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header><!-- /header -->
+        <!-- Header-->
+
+        <div class="breadcrumbs">
+            <div class="col-sm-4">
+                <div class="page-header float-left">
+                    <div class="page-title">
+                        <h1>Dashboard</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="page-header float-right">
+                    <div class="page-title">
+                        <ol class="breadcrumb text-right">
+                            <li class="active">Dashboard</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulário -->
+        <div id="formulario">
+            
+            <div class="col-xl-12 col-lg-5">
+                <div class="col-xl-12 col-sm-7">
+                    <small>* Campos obrigatórios</small>
+                </div>
+                <form class="form-group" id="ccSelectForm">
+                    <div class="form-group">
+                        <label for="estado">Estado</label>
+                        <select class="form-control" id="estado">
+                            <option value="">Selecione um estado</option>
+                            <option>Acre </option>
+                            <option>Alagoas </option>
+                            <option>Amapá </option>
+                            <option>Amazonas </option>
+                            <option>Bahia </option>
+                            <option>Ceará </option>
+                            <option>Distrito Federal </option>
+                            <option>Espírito Santo </option>
+                            <option>Goiás </option>
+                            <option>Maranhão </option>
+                            <option>Mato Grosso </option>
+                            <option>Mato Grosso do Sul </option>
+                            <option>Minas Gerais </option>
+                            <option>Pará </option>
+                            <option>Paraíba </option>
+                            <option>Paraná </option>
+                            <option>Pernambuco </option>
+                            <option>Piauí </option>
+                            <option>Rio de Janeiro </option>
+                            <option>Rio Grande do Norte </option>
+                            <option>Rio Grande do Sul </option>
+                            <option>Rondônia </option>
+                            <option>Roraima </option>
+                            <option>Santa Catarina </option>
+                            <option>São Paulo </option>
+                            <option>Sergipe </option>
+                            <option>Tocantins </option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="instituicao"></label>Instituição</label>
+                        <input type="text" class="form-control" id="instituicao" placeholder="Digite a universidade" />
+                    </div>
+                    <div class="form-group">
+                        <label for="curso">Curso </label>*
+                        <select name="curso" class="form-control"  id="curso">
+                            <option>Selecione um curso</option>
+                            <option> Análise de Sistemas </option>
+                            <option> Análise de Sistemas de Informação</option>
+                            <option> Análise de Sistemas e Tecnologias da Informação </option>
+                            <option> Análise e Desenvolvimento de Sistemas</option>
+                            <option> Análise e Desenvolvimento de Sistemas Internet </option>
+                            <option> Análise Gerencial </option>
+                            <option> Banco de Dados</option>
+                            <option> Bioprocessos e Biotecnologia</option>
+                            <option> Biotecnologia</option>
+                            <option> Ciência da Computação </option>
+                            <option> Ciência e Tecnologia </option>
+                            <option> Ciência e Tecnologia de Alimentos </option>
+                            <option> Ciência e Tecnologia de Laticínios </option>
+                            <option> Ciências da Computação </option>
+                            <option> Ciências de Computação </option>
+                            <option> Computação </option>
+                            <option> Computação e Informática </option>
+                            <option> Desenvolvimento de Sistemas </option>
+                            <option> Desenvolvimento de Sistemas de Informação </option>
+                            <option> Desenvolvimento de Software </option>
+                            <option> Desenvolvimento de Software para Internet </option>
+                            <option> Desenvolvimento para Web e Comércio Eletrônico </option>
+                            <option> Engenharia Computacional </option>
+                            <option> Engenharia da Computação </option>
+                            <option> Engenharia de Computação </option>
+                            <option> Engenharia de Computação - Ênfase Sistemas Corporativos </option>
+                            <option> Engenharia de Computação e Informação </option>
+                            <option> Engenharia de Gestão </option>
+                            <option> Engenharia de Informação </option>
+                            <option> Engenharia de Sistemas </option>
+                            <option> Engenharia de Software </option>
+                            <option> Gerenciamento de Redes de Computadores </option>
+                            <option> Gestão da Informação </option>
+                            <option> Gestão da Tecnologia da Informação </option>
+                            <option> Gestão de Ambientes Internet e Redes de Computadores </option>
+                            <option> Gestão de Rede de Computadores </option>
+                            <option> Informática </option>
+                            <option> Informática Biomédica </option>
+                            <option> Informática para a Gestão de Negócios </option>
+                            <option> Informática para Negócios </option>
+                            <option> Internet </option>
+                            <option> Internet e Redes de Computadores </option>
+                            <option> Jogos Digitais </option>
+                            <option> Mídias Sociais Digitais </option>
+                            <option> Multimídia Digital </option>
+                            <option> Nanotecnologia </option>
+                            <option> Processamento de Dados </option>
+                            <option> Propaganda e Marketing </option>
+                            <option> Redes de Computadores </option>
+                            <option> Redes de Telecomunicações </option>
+                            <option> Segurança da Informação </option>
+                            <option> Sistema de Informação </option>
+                            <option> Sistemas de Banco de Dados </option>
+                            <option> Sistemas de Computação </option>
+                            <option> Sistemas de Informação </option>
+                            <option> Sistemas e Mídias Digitais </option>
+                            <option> Sistemas Embarcados </option>
+                            <option> Sistemas para Internet </option>
+                            <option> Tecnologia da Informação </option>
+                            <option> Tecnologia e Mídias Digitais </option>
+                            <option> Tecnologias da Informação e Comunicação </option>
+                            <option> Tecnologias Digitais </option>
+                            <option> Web Design e Programação </option>
+                        </select>    
+                    </div>
+                    <div class="form-group">
+                        <label for="ano">Ano </label>*
+                        <input type="number" name="ano" size="4" min="2010" max="2018" class="form-control" id="ano" placeholder="Digite o ano"/>
+                    </div>
+
+                    <input type="button" id="buscar" class="btn btn-primary btn-lg active" disabled="disabled" onClick="aparecer()" style="border-radius: 50px; margin-left: 40%;" value="Buscar"/>
+                    <input type="reset" class="btn btn-secondary btn-lg active" onClick="desaparecer()" style="border-radius: 50px;" value="Limpar"/> 
+                    <br><br>
+                </form>
+            </div>
+        </div>
+
+        <div id="graficos" style="display: none">
+            <div id="nome-curso">
+                <h1 id="curso-div" style="text-align: center"></h1><br>
+            </div>
+            <div class="col-sm-10 col-lg-3">
+                <div class="card text-white bg-flat-color-1">
+                    <div class="card-body pb-0">
+                        <h4 class="mb-0">
+                            <span class="count">8033574</span>
+                        </h4>
+                        <p class="text-light" id="total"></p>
+
+                        <div class="chart-wrapper px-0" style="height:70px;" height="70">
+                            <canvas id="widgetChart1"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-lg-3">
+                <div class="card text-white bg-flat-color-2">
+                    <div class="card-body pb-0">
+                        <h4 class="mb-0">
+                            <span class="count">6881116</span>
+                        </h4>
+                        <p class="text-light" id="desistiram"></p>
+                        <div class="chart-wrapper px-0" style="height:70px;" height="70">
+                            <canvas id="widgetChart2"></canvas>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-lg-3">
+                <div class="card text-white bg-flat-color-3">
+                    <div class="card-body pb-0">
+                        <h4 class="mb-0">
+                            <span class="count">1152458</span>
+                        </h4>
+                        <p class="text-light" id="concluiram"></p>
+                    </div>
+                    <div class="chart-wrapper px-0" style="height:70px;" height="70">
+                        <canvas id="widgetChart3"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-12 col-lg-5">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 id="titulo-card"></h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="bar-colours-3">5,3,9,6,5,9,7,3,5,2</span>
+                                <br><h6>Ingressantes</h6>
+                            </div>
+                            <div class="col-lg-3">
+                                <span class="bar-colours-2">5,3,2,2,3,5,1</span>
+                                <br><h6>Concluintes</h6>
+                            </div>
+                            <div class="col-lg-3">
+                                <span class="pie-colours-2">5,3,9,6,5</span>
+                                <br><h6>Desistiram</h6>
+                            </div>
+                            <div class="col-lg-2">
+                                <span class="donut" data-peity='{ "fill": ["#99D683", "#f2f2f2"]}'>2,6</span>
+                                <br><br><br><h6>Aptos a concluir</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-5">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 id="titulo-card2"></h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <canvas id="trafficChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-6 col-lg-5">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 id="titulo-card3"></h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <canvas id="trafficChart2"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Right Panel -->
+
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script src="vendors/peity/jquery.peity.min.js"></script>
+    <!-- scripit init-->
+    <script src="assets/js/init-scripts/peitychart/peitychart.init.js"></script>
+    <!-- scripit init-->
+
+    <script src="vendors/chart.js/dist/Chart.bundle.min.js"></script>
+    <script src="assets/js/init-scripts/chart-js/chartjs-init.js"></script>
+
+    <!--  flot-chart js -->
+    <script src="vendors/flot/excanvas.min.js"></script>
+    <script src="vendors/flot/jquery.flot.js"></script>
+    <script src="vendors/flot/jquery.flot.pie.js"></script>
+    <script src="vendors/flot/jquery.flot.time.js"></script>
+    <script src="vendors/flot/jquery.flot.stack.js"></script>
+    <script src="vendors/flot/jquery.flot.resize.js"></script>
+    <script src="vendors/flot/jquery.flot.crosshair.js"></script>
+    <script src="assets/js/init-scripts/flot-chart/curvedLines.js"></script>
+    <script src="assets/js/init-scripts/flot-chart/flot-tooltip/jquery.flot.tooltip.min.js"></script>
+    <script src="assets/js/init-scripts/flot-chart/flot-chart-init.js"></script>
+    <!--  Chart js -->
+
+    <script src="assets/js/dashboard.js"></script>
+    <script src="assets/js/widgets.js"></script>
+    <script src="vendors/jqvmap/dist/jquery.vmap.min.js"></script>
+    <script src="vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <script src="vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
